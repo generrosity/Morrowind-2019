@@ -242,13 +242,15 @@ Congratulations, you've completed the baseline installation for Morrowind!
 
 **Before you continue:** I would highly recommend launching the game for a second time. You knew it worked vanilla, now you should test and make sure it works with all this boilerplate work you've done. If it does, you can go on to installing mods.
 
+At this point you can take a 'clean' backup of the Morrowind game directory.
+
 ## Patches, Fixes and Otherwise
 
 A note before we start installing mods:
 
 MO2 allows you to use the "Download with Manager" option on the nexus pages that have it, then you can double click to install. Feel free to use this to save time. Of course, MO2 can install archives one at a time using the second to leftmost top button with a CD on it. Once installed, you can enable the mod and its plugins (ESPs) by ticking a mod's checkbox in the left hand pane **or** by selecting several mods in the left-band-pane, right clicking one of them, and selecting "enable selected".
 
-If the version number shows up in red as you begin installing mods, I recommend that you right click them and hit "Ignore Update". This will happen due to some mod authors having poorly laid out versioning for their mods, making a mod show up as "out of date" despite you just installing it. This isn't harmful in any way, but if you do this *now* then when you hit "Check all for updates" in the future you'll actually have a pretty good idea if any of your Nexus mods have updates available. Very useful!
+If the version number shows up in red as you begin installing mods, I recommend that you right click them and hit "Ignore Update". This will happen due to some mod authors having poorly laid out versioning for their mods, making a mod show up as "out of date" despite you just installing it. This isn't harmful in any way, but if you do this *now* then when you hit "Check all for updates" in the future you'll actually have a pretty good idea if any of your Nexus mods have updates available. Very useful! Later we you do detect updates you will need to RightClick and select 'Visit on Nexus' to redownload, install, and 'replace'.
 
 1. You may be familiar with projects like the Unofficial Patches for Oblivion and Skyrim. Morrowind *sort of* has its own versions of these in the form of two options: the Morrowind Patch Project and the Patch for Purists. The MPP makes a lot of balance-related changes some players feel is untrue to the original experience. Thus, currently most players recommend the Patch for Purists which you can get [here](https://www.nexusmods.com/morrowind/mods/45096/)
 
@@ -302,7 +304,7 @@ Download the LGNPC bundle. You should install all of the mods. A few notes:
 
 ## User Interface
 
-- [Ultimate Icon Replacer](http://mw.modhistory.com/download-56-6673). This replaces all Morrowind object/inventory icons with better icons. Mods you install further down the line will take priority over some of these.
+- [Ultimate Icon Replacer](https://www.nexusmods.com/morrowind/mods/36948/). This replaces all Morrowind object/inventory icons with better icons. Mods you install further down the line will take priority over some of these.
 
 * Alternatives, for potions and scrolls you may want [Potions and Scrolls](http://mw.modhistory.com/download-35-2339). Take a look at the screenshots of both and decide for yourself. If you do want "Potions and Scrolls" just load it directly after Ultimate Icon Replacer. Note this is in ACE archive format which MO2 can't directly open, nor can 7zip which it is based upon. Bitzipper, WinRar, Bandizip, PeaZip and PowerArchiver will all open it, at which point you would re-pack the mod as a .7zip or .zip to install it via MO2. 
 
@@ -361,7 +363,7 @@ The following mods are optional to install, but have compatibility patches liste
 
 * [Tamriel Data](http://www.nexusmods.com/morrowind/mods/44537/?) - This is a requirement for the below mod. Download the HD version.
 * [Tamriel Rebuilt](http://www.nexusmods.com/morrowind/mods/42145/?) - One of the biggest mods in Morrowind and still a work in progress, but it adds a huge chunk of playable landscape (mainland Morrowind). This guide does not offer support for Tamriel Rebuilt as it is a massive overhaul and touches nearly everything in the base game. A few of the mods listed here do have patches expressly for TR but not all of them do - run TR with this guide at your own risk. 
-* [Graphic Herbalism - MWSE Edition](https://www.nexusmods.com/morrowind/mods/46599) - By default, plants in Morrowind act as containers: when you activate them, the container interface opens and you can remove any ingredients that might be present 'inside' the plant. Graphic Herbalism MWSE is an updated version of an old mod that makes plants act more like plants; activating the plant picks it, you automatically get the ingredients, and the plant changes in the world to show it has been picked. Think Skyrim plants. Ignore the `GH Patches and Replacers` file, that needs to be later.
+* [Graphic Herbalism - MWSE Edition](https://www.nexusmods.com/morrowind/mods/46599) - By default, plants in Morrowind act as containers: when you activate them, the container interface opens and you can remove any ingredients that might be present 'inside' the plant. Graphic Herbalism MWSE is an updated version of an old mod that makes plants act more like plants; activating the plant picks it, you automatically get the ingredients, and the plant changes in the world to show it has been picked. Think Skyrim plants. Ignore the `GH Patches and Replacers` file, that needs to be later. Note the Atlas mod is suggested being installed before this mod.
 * [Glow in the Dahrk](https://www.nexusmods.com/morrowind/mods/45886/) is essentially a replacement for WinDoors Glow. Highly recommended.
 
 (I personally chose the High-res and rays options, and left the rest off)
@@ -373,7 +375,7 @@ However: If you want to use it you *must* have MWSE alpha 2.1 or later. It will 
 ## Mesh fixes and Improvements
 
 * [Morrowind Optimization Patch](https://www.nexusmods.com/morrowind/mods/45384) - Improves performance by optimizing meshes.
-* [Project Atlas](https://www.nexusmods.com/morrowind/mods/45399) - Improves performance by merging meshes into a single shape, reducing draw calls significantly for the same visual quality. Download all files except ASL Urns. (Dunmeri urns will cover this) 
+* [Project Atlas](https://www.nexusmods.com/morrowind/mods/45399) - Improves performance by merging meshes into a single shape, reducing draw calls significantly for the same visual quality. Now is a compbined download - select all BAIN options except ASL Urns. (Dunmeri urns will cover this). As the mod is still in Alpha, the Discord suggested Mod order is Optimization Patch>Glow in the Dahrk>Project Atlas (with GitD patches>Mesh & Texture replacers>Graphic Herbalism MWSE
 * [Better Meshes plus Optimization](http://www.nexusmods.com/morrowind/mods/38170/?)
 * [Dwemer Mesh Improvement](http://www.nexusmods.com/morrowind/mods/43101/?)
 * [Mesh Improvements Optimized](http://download.fliggerty.com/download-56-1088)
